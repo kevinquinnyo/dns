@@ -29,11 +29,8 @@ final class RecordFactory
     }
 
     /**
-     * Only supporting NS for now. If we need more we can either implement more, or scrap all of this and use something
+     * Only supporting NS and A for now. If we need more we can either implement more, or scrap all of this and use something
      * like spatie/dns which does something similar.
-     *
-     * I didn't include that lib for now because it has a symfony dependency and we have so many dependencies as it
-     * stands.
      *
      * @param string $type the type
      * @param array $data the data array
