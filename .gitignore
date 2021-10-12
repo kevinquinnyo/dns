@@ -1,0 +1,6 @@
+build/*
+.phpunit.xml
+.phpunit.cache
+composer.lock
+vendor/*
+tags
